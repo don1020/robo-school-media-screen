@@ -92,3 +92,79 @@ body {
 .group-img{
     width: 200px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container h1 {
+    font-size: 18px;
+    margin: 0 0 20px;
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+.section p {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #666;
+}
+.tooltip {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+}
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s;
+}
+.tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.blocks{
+    margin: 100px;
+}
