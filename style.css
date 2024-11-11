@@ -168,3 +168,91 @@ body {
 .blocks{
     margin: 100px;
 }
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.more-info {
+    color: red;
+    text-decoration: none;
+}
+
+.pricing-container {
+    width: 250px;
+    margin-left: 7~px;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.pro {
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 2em;
+    margin:   15px 0;
+    font-weight: bold;
+}
+
+.currency {
+    font-size: 0.8em;
+}
+
+.description {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #b71c1c;
+}

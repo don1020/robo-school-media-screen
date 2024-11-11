@@ -1,12 +1,25 @@
-function makeCall() {
-    // Replace with the desired phone number
-    const phoneNumber = '1234567890'; 
-    window.location.href = `tel:${phoneNumber}`;
+let currentIndex = 0;
+
+function showSlide(index) {
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    if (index >= totalSlides) {
+        currentIndex = 0;
+    } else if (index < 0) {
+        currentIndex = totalSlides - 1;
+    } else {
+        currentIndex = index;
+    }
+
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
-function sendMessage() {
-    // Replace with the desired message or action
-    const message = 'Hello, I would like to inquire about your courses!';
-    // This example opens the default messaging app with a pre-filled message
-    window.location.href = `sms:?body=${encodeURIComponent(message)}`;
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
 }
