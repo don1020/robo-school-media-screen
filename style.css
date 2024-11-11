@@ -89,9 +89,11 @@ body {
     font-size: 14px;
     color: #555;
 }
-.group-img{
+
+.group-img {
     width: 200px;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -102,6 +104,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .container {
     background-color: #fff;
     padding: 20px;
@@ -110,25 +113,30 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
 .container h1 {
     font-size: 18px;
     margin: 0 0 20px;
     color: #333;
 }
+
 .section {
     margin-bottom: 20px;
 }
+
 .section h2 {
     font-size: 16px;
     margin: 0;
     color: #333;
     font-weight: bold;
 }
+
 .section p {
     font-size: 14px;
     margin: 8px 0;
     color: #666;
 }
+
 .tooltip {
     display: inline-block;
     position: relative;
@@ -136,10 +144,12 @@ body {
     font-size: 12px;
     color: #666;
 }
+
 .tooltip:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
 }
+
 .tooltip-text {
     visibility: hidden;
     opacity: 0;
@@ -155,6 +165,7 @@ body {
     transform: translateX(-50%);
     transition: opacity 0.3s;
 }
+
 .tooltip-text::after {
     content: '';
     position: absolute;
@@ -165,9 +176,11 @@ body {
     border-style: solid;
     border-color: #333 transparent transparent transparent;
 }
-.blocks{
+
+.blocks {
     margin: 100px;
 }
+
 .slider-container {
     overflow: hidden;
     width: 100%;
@@ -209,7 +222,7 @@ p {
 
 .pricing-container {
     width: 250px;
-    margin-left: 7~px;
+    margin-left: 7px;
 }
 
 .pricing-card {
@@ -229,7 +242,7 @@ p {
 
 .price {
     font-size: 2em;
-    margin:   15px 0;
+    margin: 15px 0;
     font-weight: bold;
 }
 
@@ -255,4 +268,149 @@ p {
 
 .button:hover {
     background-color: #b71c1c;
+}
+
+.footer {
+    width: 300px;
+    height: 536px;
+    position: absolute;
+    top: 2760px;
+    gap: 0px;
+    left: 280px;
+    opacity: 0px;
+    background-color: #ff0000;
+}
+
+.footer-item-one h1 {
+    width: 300px;
+    height: 84px;
+    position: absolute;
+    top: 31px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+
+}
+
+.footer-item-two p {
+    width: 250px;
+    height: 52px;
+    position: absolute;
+    top: 95px;
+    left: 35px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+
+}
+
+.footer-item-three {
+    width: 300px;
+    height: 270px;
+    position: absolute;
+    top: 157px;
+    left: 10px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.footer-item-three-imya {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 47px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.footer-item-three-telefon {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 117px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.footer-item-three-email {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 187px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.footer-item-three-button button {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 257px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    background-color: #141024;
+    color: #ffffff;
+}
+
+.footer-item-four {
+    width: 300px;
+    height: 147px;
+    position: absolute;
+    top: 530px;
+    left: 0;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #141024;
+
+}
+
+.footer-item-four-robo {
+    width: 136px;
+    height: 29px;
+    top: 4997px;
+    left: 92px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.footer-item-four-nomer {
+    width: 136px;
+    height: 26px;
+    top: 5046px;
+    left: 92px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.footer-item-four-crobo {
+    width: 136px;
+height: 26px;
+top: 5046px;
+left: 92px;
+gap: 0px;
+opacity: 0px;
+background-color: #fff;
 }
